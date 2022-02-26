@@ -1,0 +1,19 @@
+{
+    "port": ":3001",
+    "enableGinConsoleLog": true,
+    "enableGinFileLog": false,
+
+    "logFilename": "logs/server.log",
+    "logMaxSize": 10,
+    "logMaxBackups": 10,
+    "logMaxAge": 30,
+
+    "mgAddrs": "127.0.0.1:27017",
+    "mgDbName": "go-ms1-user",
+    "mgDbUsername": "",
+    "mgDbPassword": "",
+
+    "authAddr": "http://127.0.0.1:3000",
+    "jwtSecretPassword": "hfgdvdvsvoivdjvnvsovqdhiqvq122214b",
+    "issuer": "sathish"
+}
